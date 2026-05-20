@@ -1,0 +1,3 @@
+#!/bin/sh
+printf 'etbcmd mock: %s\n' "$*"
+exit 0

@@ -1,0 +1,27 @@
+# BrokerRPCMon HV configuration
+
+BROKER_NAME="ETBSAPSSL"
+BROKER_HOST="localhost"
+BROKER_PORT_CLEAR="10001"
+BROKER_PORT_SSL="10052"
+
+SAG_HOME="/opt/softwareag"
+EXX_HOME="/opt/softwareag/EntireX"
+NAT_HOME="/opt/softwareag/Natural"
+
+ETBINFO_BIN=""
+ETBCMD_BIN=""
+NATURAL_BIN=""
+
+LOG_DIR="/var/log/brokerrpcmon"
+RUN_DIR="/var/run/brokerrpcmon"
+
+NL_INVENTORY_FILE="/opt/brokerrpcmon/conf/nl_inventory.conf"
+
+START_BROKER_CMD=""
+STOP_BROKER_CMD=""
+
+BROKER_START_TIMEOUT="120"
+BROKER_STOP_TIMEOUT="120"
+PORT_CHECK_TIMEOUT="60"
+NL_REGISTRATION_OBSERVE_TIMEOUT="120"

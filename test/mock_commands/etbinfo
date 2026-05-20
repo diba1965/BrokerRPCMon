@@ -1,0 +1,3 @@
+#!/bin/sh
+printf 'NL01|nl01.example.local|RPC|NL01RPC|CALLNAT|REGISTERED\n'
+printf 'NL02|nl02.example.local|RPC|NL02RPC|CALLNAT|REGISTERED\n'

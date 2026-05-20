@@ -1,0 +1,7 @@
+# Expected NL services registered at the HV broker
+# Format:
+# NL_ID|HOST|RPC_SERVER_CLASS|RPC_SERVER_NAME|RPC_SERVICE|ENABLED
+
+NL01|nl01.example.local|RPC|NL01RPC|CALLNAT|Y
+NL02|nl02.example.local|RPC|NL02RPC|CALLNAT|Y
+NL03|nl03.example.local|RPC|NL03RPC|CALLNAT|Y
