@@ -7,11 +7,16 @@ BROKER_PORT_SSL="10052"
 
 SAG_HOME="/opt/softwareag"
 EXX_HOME="/opt/softwareag/EntireX"
+EXXDIR="/usr/SAG/exx/v107/EntireX"
 NAT_HOME="/opt/softwareag/Natural"
 
 ETBINFO_BIN=""
 ETBCMD_BIN=""
+ETBSRV_BIN=""
 NATURAL_BIN=""
+
+BROKER_PING_HOST=""
+BROKER_PING_PORT=""
 
 LOG_DIR="/var/log/brokerrpcmon"
 RUN_DIR="/var/run/brokerrpcmon"
